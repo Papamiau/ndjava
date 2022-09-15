@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append TABLE</h1><br>
+    <div class="container">
+        <div id="data">
+            <input type="text" id="vardas" placeholder="Vardas">
+            <input type="text" id="pavarde" placeholder="Pavarde">
+            <input type="number" id="amzius" placeholder="Amzius"><br><br>
+            <button>Prideti</button>
+            <button onclick="myFunction()">Atimti pirma</button>
+            <button onclick="myFunction2()">Atimti paskutini</button>
+        </div>
+        <table>
+            <tr>
+                <th>Vardas</th>
+                <th>Pavarde</th>
+                <th>Amzius</th>
+            </tr>
+            <tr id = 'row1'>
+                <td>Jonas</td>
+                <td>Rimkus</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>Vestina</td>
+                <td>Petronyte</td>
+                <td>31</td>
+            </tr>
+            <tr id = 'row3'>
+                <td>Marius</td>
+                <td>Dulinskas</td>
+                <td>23</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
